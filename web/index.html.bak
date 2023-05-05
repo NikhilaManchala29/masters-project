@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Home Page</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="css/coin-slider.css" />
+<script type="text/javascript" src="js/coin-slider.min.js"></script>
+<link href="layout.css" rel="stylesheet" type="text/css" media="screen" />
+<script type="text/javascript" src="js/cufon-yui.js"></script>
+<script type="text/javascript" src="js/droid_sans_400-droid_sans_700.font.js"></script>
+<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<style type="text/css">
+<!--
+.style4 {color: #FFFFFF; }
+.style5 {
+	color: #FF0000;
+	font-weight: bold;
+	
+}
+-->
+</style>
+</head>
+<body>
+<div style="margin-left: 225px;" class="slider">
+     
+        <div id="coin-slider"><img src="images/slide2.jpg" width="900" height="160" alt="" />        </div>
+        
+      
+</div>
+<div id="navigation" >
+    <h2 align="center" ><font color="yellow" ><br>Cracking More Password Hashes With Patterns</font></h3>
+</div>
+<div id="content">
+  <div id="page">
+    <div id="column1">
+      <div class="box1">
+          <h2 align="center">Wel<img src="images/image06.jpg" alt="" width="120" height="120" class="image-left" />come to Cracking More Password Hashes</h2>
+        <p align="justify" class="style5"><strong>It is a common mistake of application developers to
+store user passwords within databases as plaintext or only as their
+unsalted hash values. Many real-life successful hacking attempts
+that enabled attackers to get unauthorized access to sensitive
+database entries including user passwords have been experienced in the past. Seizing password hashes, attackers perform
+brute-force, dictionary, or rainbow-table attacks to reveal plaintext passwords from their hashes. Dictionary attacks are very fast
+for cracking hashes but their success rate is not sufficient. In this
+paper, we propose a novel method for improving dictionary
+attacks. Our method exploits several password patterns that are
+commonly preferred by users when trying to choose a complex
+and strong password. In order to analyze and show success rates
+of our developed method, we performed cracking tests on real-life
+leaked password hashes using both a traditional dictionary
+and our pattern-based dictionary. We observed that our
+pattern-based method is superior for cracking password hashes..</p>
+      </div>
+    </div>
+    <div id="column2">
+      <h2>Welcome Menu</h2>
+      <ul>
+    <li><a href="index.html">Home</a></li>
+  
+    <li><a href="dataOwnerLogin.jsp">User</a></li>
+    <li><a href="cloudServerLogin.jsp">Administrator</a></li>
+    
+
+      </ul>
+    </div>
+  </div>
+  <div style="clear: both;">&nbsp;</div>
+</div>
+<div id="footer">
+  
+</div>
+</body>
+</html>

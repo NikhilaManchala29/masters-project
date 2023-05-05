@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Home Page</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="css/coin-slider.css" />
+<script type="text/javascript" src="js/coin-slider.min.js"></script>
+<link href="layout.css" rel="stylesheet" type="text/css" media="screen" />
+<script type="text/javascript" src="js/cufon-yui.js"></script>
+<script type="text/javascript" src="js/droid_sans_400-droid_sans_700.font.js"></script>
+<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<style type="text/css">
+<!--
+.style4 {color: #FFFFFF; }
+.style5 {
+	color: #FF0000;
+	font-weight: bold;
+	
+}
+-->
+</style>
+</head>
+<body>
+<div style="margin-left: 225px;" class="slider">
+     
+        <div id="coin-slider"><img src="images/slide2.jpg" width="900" height="160" alt="" />        </div>
+        
+      
+</div>
+<div id="navigation" >
+    <h2 align="center" ><font color="yellow" ><br>Cracking More Password Hashes With Patterns</font></h3>
+</div>
+<div id="content">
+  <div id="page">
+    <div id="column1">
+      <div class="box1">
+          <h2 align="center"><font color="blue">Password Pattern cracking Test</font></h2>
+       
+        <p>
+		<table width=405 height="267" border=0 align="right" cellpadding=0 cellspacing=0 bgcolor=#FFFFFF>
+<tr>
+    <%String mm=(String)application.getAttribute("owner");%>
+<td width="405" height="189" align=center><font class=sb4>Sorry.</font><BR>
+        <br>
+      <font class=sb3 color="red">
+          <font color="red" size="2">Dictionary Attacker.<BR><br><font color="purple">This happens due to -</font>
+<TABLE cellSpacing=0 cellPadding=0 border=0 height="7"><TR><TD height=7></TD></TR></TABLE>
+<font size="3"></font><font size="4"> <%=request.getParameter("mess")%></font> <BR>
+   <BR>
+       <h3 align="center"><font color="brown">Try to Create New Account.</font></h3><br>
+       <a href="dataOwnerLogin.jsp">Click here</a> to Go-Back<BR>
+</BR>
+</font>
+</td>
+</tr>
+</table>
+        </p>
+        
+        
+      </div>
+    </div>
+    <div id="column2">
+      <h2>Menu</h2>
+      <ul>
+    <li><a href="index.html">Home</a></li>
+    
+    <li><a href="dataOwnerLogin.jsp">User</a></li>
+    <li><a href="cloudServerLogin.jsp">Administrator</a></li>
+    
+      </ul>
+    </div>
+  </div>
+  <div style="clear: both;">&nbsp;</div>
+</div>
+<div id="footer">
+  
+</div>
+</body>
+</html>
